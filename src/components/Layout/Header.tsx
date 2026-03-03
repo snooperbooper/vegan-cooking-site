@@ -34,7 +34,7 @@ export default function Header({ user }: HeaderProps) {
           <Link to="/" className="flex items-center space-x-2">
             <ChefHat className="h-8 w-8 text-primary-600" />
             <span className="text-2xl font-display font-bold text-gray-900">
-              Vegan <span className="text-primary-600">Delights</span>
+              We Cook <span className="text-primary-600">Vegan</span>
             </span>
           </Link>
 

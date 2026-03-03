@@ -11,7 +11,7 @@ export default function Footer() {
             <div className="flex items-center space-x-2 mb-4">
               <ChefHat className="h-8 w-8 text-primary-500" />
               <span className="text-2xl font-display font-bold text-white">
-                Vegan Delights
+                We Cook Vegan
               </span>
             </div>
             <p className="text-sm">
@@ -91,7 +91,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-gray-800 mt-8 pt-8 text-center text-sm">
-          <p>&copy; {new Date().getFullYear()} Vegan Delights. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} We Cook Vegan. All rights reserved.</p>
         </div>
       </div>
     </footer>

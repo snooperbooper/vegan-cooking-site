@@ -51,7 +51,7 @@ export default function Auth() {
           <div className="inline-flex items-center space-x-2 mb-4">
             <ChefHat className="h-12 w-12 text-primary-600" />
             <span className="text-3xl font-display font-bold text-gray-900">
-              Vegan <span className="text-primary-600">Delights</span>
+              We Cook <span className="text-primary-600">Vegan</span>
             </span>
           </div>
           <h2 className="text-2xl font-bold text-gray-900">
