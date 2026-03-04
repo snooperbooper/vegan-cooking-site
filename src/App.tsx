@@ -14,6 +14,8 @@ import Search from './pages/Search';
 import Auth from './pages/Auth';
 import Profile from './pages/Profile';
 import AdminDashboard from './pages/AdminDashboard';
+import Articles from './pages/Articles';
+import ArticleDetail from './pages/ArticleDetail';
 
 function App() {
   const [user, setUser] = useState<User | null>(null);
@@ -53,6 +55,8 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/recipe/:id" element={<RecipeDetail user={user} />} />
             <Route path="/search" element={<Search />} />
+            <Route path="/articles" element={<Articles />} />
+            <Route path="/article/:slug" element={<ArticleDetail />} />
             <Route path="/auth" element={<Auth />} />
             <Route path="/profile" element={<Profile user={user} />} />
             <Route path="/admin" element={<AdminDashboard user={user} />} />

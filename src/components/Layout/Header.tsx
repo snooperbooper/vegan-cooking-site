@@ -46,6 +46,9 @@ export default function Header({ user }: HeaderProps) {
             <Link to="/search" className="text-gray-700 hover:text-primary-600 font-medium">
               Recipes
             </Link>
+            <Link to="/articles" className="text-gray-700 hover:text-primary-600 font-medium">
+              Articles
+            </Link>
             
             {/* Search Bar */}
             <form onSubmit={handleSearch} className="relative">
@@ -105,6 +108,13 @@ export default function Header({ user }: HeaderProps) {
                 className="text-gray-700 hover:text-primary-600 font-medium"
               >
                 Recipes
+              </Link>
+              <Link
+                to="/articles"
+                onClick={() => setMobileMenuOpen(false)}
+                className="text-gray-700 hover:text-primary-600 font-medium"
+              >
+                Articles
               </Link>
               <form onSubmit={handleSearch} className="relative">
                 <input
